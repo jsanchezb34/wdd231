@@ -1,0 +1,57 @@
+@media only screen  and (min-width:38rem){
+    header, main, nav, footer {
+        margin: 0 auto;
+    }  
+
+    main h1{
+        background-color: var(--main-color);
+    }
+    
+    header {
+        grid-template-columns: 24px auto;
+        border-bottom: 0;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        font-size: 2.5vw;
+        background-color: var(--primary-color);
+    }
+
+    header span{
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 4vw;
+    color: var(--accent2-color);
+}
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navigation a{
+        border: none;
+    }
+}
+@media screen and (min-width:1030px){
+/*-----------sections-------------*/
+
+    .sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (min-width:1550px){
+    /*-----------sections-------------*/
+
+.sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}

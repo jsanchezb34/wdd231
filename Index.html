@@ -6,6 +6,9 @@
     <meta name="description" content="Chamber of commerce wdd231 course learning project">
     <meta name="author" content="Jose Sanchez">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
     <title>Chamber of commerce||WDD 231 </title>
 </head>
 <body>
@@ -23,8 +26,15 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <section>
-            <h2>section1</h2>
+        <div class="sections">
+        <section class="CertificateCard">
+            <h2>Web and computer Programming Certificate</h2>
+            <button id="all-crs" class="Coursesbutton">All Courses</button>
+            <button id="WDD-crs" class="Coursesbutton">WDD Courses</button>
+            <button id="CSE-crs" class="Coursesbutton">CSE Courses</button>
+
+            <div id="course-container"></div>
+
         </section>
         <section>
             <h2>section2</h2>
@@ -32,6 +42,7 @@
         <section>
             <h2>section3</h2>
         </section>
+        </div>
     </main>
     <footer>
         <div class="social">
@@ -46,8 +57,16 @@
         <p>Santa Cruz - Bolivia</p>
         </div>
         <div>
-            <span id="lastmodified"></span>
+            <span id="lastmodified"><p>Última modificación: <span id="lastModified"></span></p></span>
         </div>
     </footer>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/course.js"></script>
+    <script src="scripts/date.js"></script>
+    <script>
+        document.getElementById("lastModified").innerHTML = document.lastModified;
+    </script>
+    
 </body>
 </html>
+
