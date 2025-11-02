@@ -114,6 +114,6 @@ document.getElementById('WDD-crs').addEventListener('click', ()=> {
 
 document.getElementById('CSE-crs').addEventListener('click', ()=> {
     const cseCourses = courses.filter(course => course.subject === 'CSE');
-    displaycourses(CSECourses);
+    displaycourses(cseCourses);
 });
 
