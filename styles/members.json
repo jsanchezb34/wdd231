@@ -1,0 +1,37 @@
+{
+    "Family":{
+        "FamilyName":"Gonzales",
+        "Movedate":"12.12.2025",
+        "NumberofPeople": 5,
+        "BishopicVisit":true
+    },
+    "FamilyMembers": [
+        {
+            "name":"Mario",
+            "gender":"male",
+            "birthdate":"20.12.1990"
+        },
+        {
+            "name":"Maria Jose",
+            "gender":"female",
+            "birthdate":"20.12.1995"
+        },
+        {
+            "name":"Maria",
+            "gender":"female",
+            "birthdate":"10.10.2016"
+        },
+        {
+            "name":"Jesus",
+            "gender":"male",
+            "birthdate":"20.12.2015"
+        },
+        {
+            "name":"Juan",
+            "gender":"male",
+            "birthdate":"20.12.2019"
+        }
+        
+    ]
+}
+
