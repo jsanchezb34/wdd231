@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --main-color : #769382;
+    --primary-color:#2a2929 ;
+    --secondary-color:#769382 ;
+    --accent1-color: #C0C3b9 ;
+    --accent2-color: #f3efe3;
+    
+    --heading-font: 'roboto';
+    --paragraph-font: 'roboto';
+
+}
+
+* {
+    font-family: 'roboto';
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+/*---------------Header---------------*/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 5px 10px;
+    align-items: end;
+    column-gap: 8px;
+}
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+header span{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+header nav{
+    display: none;
+}
+
+
+
+/*---------------Body---------------*/
+#hero {
+    position: relative;
+    background-color: var(--main-color);
+    margin-bottom: 1rem;
+    max-height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero h2 {
+    margin: 2rem;
+}
+#hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#tickets {
+    position: absolute;
+    padding: 1rem;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    z-index: 1;
+}
+#tickets:hover {
+    transform: scale(1.1)s;
+    transition: transform 0.3s ease-in-out;
+}
+
+main section {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#home {
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+#home div {
+    background-color: var(--accent1-color);
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+div h3{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 0.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*---------------Footer---------------*/
+footer {
+    background-color: var(--primary-color);
+    padding:1rem;
+    text-align: center;
+}
+
+footer a img {
+    background-color: var(--accent1-color);
+    width: 2rem;
+    padding: 1rem;
+    margin: .2rem;
+    border-radius: 30px;
+}
+
+footer span, a {
+    color:var(--accent2-color);
+}
+
+footer h2, p {
+    color: var(--accent2-color);
+}

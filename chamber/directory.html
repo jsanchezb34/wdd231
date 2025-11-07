@@ -13,10 +13,86 @@
     <meta property="og:image" content="https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg" alt="image placeholder" />
     <meta property="og:type" content="website" />
 
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico" alt="Bonsai tree icon">
     <title>Chamber of Commerce</title>
 </head>
+
+<!------------------------Body---------------------->
+
 <body>
-    <h1>Yea Buddy!! light weigth</h1>
+
+    <header>
+        <img src="images/bonsai.png" alt="Bonsai icon">
+        <span>Jose´s Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger">
+        </button>
+        <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </header>
+
+
+    <main>
+        <div id="hero">
+            <img src="images/nature 2.jpeg" alt="">
+            <button id="tickets">Keynote tickets</button>
+        </div> 
+        <h2>Home</h2>
+        <section id="home">
+            <div id="events">
+                <h3>Events</h3>
+            </div>
+            <div id="currentweather">
+                <h3>Current Weather</h3>
+            </div>
+            <div id="weatherforecast">
+                <h3>Weather Forecast</h3>
+            </div>
+        </section>
+        <section id="businesscards">
+            <div class="cardscontainer"></div>
+        </section>
+    </main>
+
+    <!------------------------Footer---------------------->
+    <footer>
+        
+        <section id="Contact">
+            <h2>Jose´s Chamber of Commerce</h2>
+            <p>Fake direction XD (place holder)</p>
+            <p>Santa Cruz Bolivia</p>
+            <a href="https://jsanchezb34.github.io/wdd231/">My github link</a>
+            <p>123 456 789</p>
+        </section>
+
+
+        <section id="Social">
+            <a href="" target="_blank"><img src="images/youtube.svg" alt="" ></a>
+            <a href="" target="_blank"><img src="images/github.svg" alt=""></a>
+            <a href="" target="_blank"><img src="images/linkedin.svg" alt=""></a>
+        </section>
+
+
+        <section id="info">
+            <p>WDD231 Class Project</p>
+            <p>Jose Sanchez B.</p>
+            <span id="lastmodified"><p>Última modificación: <span id="lastModified"></span></p></span>
+        </section>
+    </footer>
+
+<!------------------------scripts---------------------->
+    <script src="scripts/date.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script>
+        document.getElementById("lastModified").innerHTML = document.lastModified;
+    </script>
+
 </body>
 </html>
