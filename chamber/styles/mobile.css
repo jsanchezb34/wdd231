@@ -76,7 +76,7 @@ header nav{
     z-index: 1;
 }
 #tickets:hover {
-    transform: scale(1.1)s;
+    transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
