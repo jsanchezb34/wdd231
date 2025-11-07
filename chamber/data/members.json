@@ -1,0 +1,82 @@
+
+{
+    "metadata":{
+    "createdBy": "AI assistant",
+    "author": "José Sánchez",
+    "date": "2025-11-07",
+    "note": "Este archivo fue generado con ayuda de inteligencia artificial para el proyecto WDD231."
+    }
+,
+"Companies":[
+  {
+    "name": "GreenLeaf Landscaping",
+    "address": "123 Garden Ave, Santa Cruz, Bolivia",
+    "phone": "+591 70012345",
+    "website": "https://greenleafsc.com",
+    "image": "greenleaf.png",
+    "membershipLevel": 3,
+    "industry": "Landscaping & Gardening",
+    "founded": 2008
+  },
+  {
+    "name": "TechNova Solutions",
+    "address": "456 Innovation Blvd, Santa Cruz, Bolivia",
+    "phone": "+591 70067890",
+    "website": "https://technova.bo",
+    "image": "technova.svg",
+    "membershipLevel": 2,
+    "industry": "Software Development",
+    "founded": 2015
+  },
+  {
+    "name": "Bolivian Coffee Co.",
+    "address": "789 Aroma St, La Paz, Bolivia",
+    "phone": "+591 70123456",
+    "website": "https://boliviancoffee.com",
+    "image": "coffee-logo.jpg",
+    "membershipLevel": 1,
+    "industry": "Food & Beverage",
+    "founded": 1999
+  },
+  {
+    "name": "EcoBuild Constructors",
+    "address": "321 Sustainable Rd, Cochabamba, Bolivia",
+    "phone": "+591 70234567",
+    "website": "https://ecobuild.bo",
+    "image": "ecobuild-icon.png",
+    "membershipLevel": 2,
+    "industry": "Construction",
+    "founded": 2012
+  },
+  {
+    "name": "Andes Adventure Tours",
+    "address": "654 Explorer Way, Sucre, Bolivia",
+    "phone": "+591 70345678",
+    "website": "https://andesadventure.bo",
+    "image": "andes-logo.svg",
+    "membershipLevel": 3,
+    "industry": "Travel & Tourism",
+    "founded": 2005
+  },
+  {
+    "name": "SolarTech Bolivia",
+    "address": "987 Energy Park, Tarija, Bolivia",
+    "phone": "+591 70456789",
+    "website": "https://solartech.bo",
+    "image": "solartech.png",
+    "membershipLevel": 1,
+    "industry": "Renewable Energy",
+    "founded": 2018
+  },
+  {
+    "name": "Altiplano Artisans",
+    "address": "159 Culture Plaza, Oruro, Bolivia",
+    "phone": "+591 70567890",
+    "website": "https://altiplanoartisans.bo",
+    "image": "altiplano-icon.jpg",
+    "membershipLevel": 2,
+    "industry": "Handcrafted Goods",
+    "founded": 2010
+  }
+]
+}
