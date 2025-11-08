@@ -46,6 +46,22 @@ header nav{
     display: none;
 }
 
+#ham-btn {
+  font-size: 1.5rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+#ham-btn :hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 
 
 /*---------------Body---------------*/
