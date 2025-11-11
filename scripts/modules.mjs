@@ -1,17 +1,7 @@
 import byuiCourse from "./course.mjs";
-import {setSectionSelection} from './sections.mjs';
+import {setSectionSelection, renderSections} from './sections.mjs';
 import { setTitle } from "./output.mjs";
 
-
-function renderSections(sections) {
-  const html = sections.map(
-    (section) => `<tr>
-    <td>${section.sectionNumber}</td>
-    <td>${section.enrolled}</td>
-    <td>${section.instructor}</td></tr>`
-  );
-  document.querySelector("#sections").innerHTML = html.join("");
-}
 
 document.querySelector("#enrollStudent").addEventListener("click", function () {
   const sectionNum = Number(document.querySelector("#sectionNumber").value);
