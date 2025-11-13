@@ -116,8 +116,30 @@ main section {
 #home div {
     background-color: var(--accent1-color);
     margin: 1rem;
-    height: 10rem;
+    height: auto;
+    min-height: 15rem;
     border-radius: 20px;
+}
+
+#currentweather span{
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: bolder;
+} 
+#weatherforecast p{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#weatherforecast span{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bolder;
+} 
+
+#home div img {
+    height: 5rem;
 }
 div h3{
     background-color: var(--primary-color);
@@ -125,6 +147,11 @@ div h3{
     padding: 0.5rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+#weatherforecast {
+    background-color: red;
+    margin-top: 1rem;
 }
 /*---------------Footer---------------*/
 footer {
@@ -145,6 +172,7 @@ footer span, a {
     color:var(--accent2-color);
 }
 
-footer h2, p {
+footer h2
+footer p {
     color: var(--accent2-color);
 }
