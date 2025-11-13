@@ -44,7 +44,7 @@
             <img src="images/nature.jpeg" alt="green nature picture">
             <button id="tickets">Keynote tickets</button>
         </div> 
-        <h2>Home (index)</h2>
+        <h2>Home</h2>
         <section id="home">
             <div id="events">
                 <h3>Events</h3>
@@ -72,18 +72,33 @@
     </main>
 <!------------------------Footer---------------------->
     <footer>
-        
-        <section id="Contact">
-            <h2>Jose´s Chamber of Commerce</h2>
-            <p>Fake direction XD (place holder)</p>
-            <p>Santa Cruz Bolivia</p>
-            <a href="https://jsanchezb34.github.io/wdd231/">My github link</a>
-            <p>123 456 789</p>
-        </section>
+        <div class="contact">
+        <h2>Santa Cruz Chamber of commerce </h2>
+        <p></p>
+        <p>Santa Cruz, Bolivia 0000</p>
+        <p>E-Mail placeholder</p>
+        <p>(000) 111 2222 3333</p>
+        </div>
+
+        <div class="social">
+            <a href="" target="_blank"><img src="images/github.svg" alt="" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/linkedin.svg" alt="" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/youtube.svg" alt="" width="16" height="16"></a>
+        </div>
+        <div class="info">
+            <p>WDD 231 || Class Project </p>
+            <p>Jose Sanchez</p>
+            <p>&copy; 2025 Santa Cruz Chamber of commerce</p>
+            <p>Last modified on: <span id="lastModified"></span></p>
+        </div>
     </footer>
+
     <script src="scripts/date.js"></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/weather.js"></script>
+    <script>document.getElementById("lastModified").innerHTML = document.lastModified;</script>
+    <script>document.getElementById("currentYear").innerHTML = document.lastModified;</script>
+
 
 
 </body>
