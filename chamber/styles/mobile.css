@@ -149,9 +149,13 @@ div h3{
     border-top-right-radius: 20px;
 }
 
-#weatherforecast {
-    background-color: red;
-    margin-top: 1rem;
+
+#businesscards {
+    min-height: 500px ;
+    overflow: hidden;
+    background-color: var(--accent2-color);
+    margin: 1rem;
+    border-radius: 10px;
 }
 /*---------------Footer---------------*/
 
