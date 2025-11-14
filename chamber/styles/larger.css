@@ -69,10 +69,6 @@
     transition: transform 0.3s ease-in-out;
  }
 
- footer {
-  text-align: center;
- }
-
  #members div{
     background-color: white;
     margin-left: 5rem;
@@ -80,6 +76,20 @@
     padding: 2rem;
     border-radius: 20px;
 }
+
+#members {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#members div {
+  margin: .5rem;
+}
+
+ footer {
+  text-align: center;
+ }
+
+
 }
   
 
