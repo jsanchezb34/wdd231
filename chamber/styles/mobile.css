@@ -153,9 +153,16 @@ div h3{
 #businesscards {
     min-height: 500px ;
     overflow: hidden;
-    background-color: var(--accent2-color);
+    margin: 2rem;
+    border-radius: 20px;
+
+}
+
+#members div{
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
     margin: 1rem;
-    border-radius: 10px;
+    padding: 2rem;
+    border-radius: 20px;
 }
 /*---------------Footer---------------*/
 

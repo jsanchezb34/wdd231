@@ -72,6 +72,14 @@
  footer {
   text-align: center;
  }
+
+ #members div{
+    background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 2rem;
+    border-radius: 20px;
+}
 }
   
 
@@ -88,9 +96,20 @@
     max-width: 1200px;
    }
 
-   #home div {
+  #home div {
       width: 600px;
    }
+
+  #members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#members div {
+  margin: .5rem;
+}
  
    footer {
     text-align: left;
@@ -100,4 +119,6 @@
       place-items: center;
    }
 
- }
+
+
+  }
