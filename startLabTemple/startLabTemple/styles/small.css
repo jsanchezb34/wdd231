@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+
+#mydialog div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    background-color: #ddd;
+    padding: 5px;
+    border-bottom: red 1px solid;
+}
+
+#mydialog h2 {
+    margin: 0;
+    color:  blue;
+}
+
+#mydialog button {
+    margin: 0;
+    padding: .5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#mydialog p {
+    padding: 18px;
+    color: green;
+}
+
+#openButton{
+    background-color: red;
+}
+
+#dialogBox{
+    background-color: red;
+}
+
+#closeButton {
+    background-color: green;
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+;
+}

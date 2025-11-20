@@ -28,3 +28,17 @@ function displayCompanies(Companies){
 }
 
 getcompanies();
+
+const gridButton = document.getElementById ('showgrid');
+const listButton = document.getElementById ('showlist');
+const members =  document.getElementById ('members');
+
+gridButton.addEventListener('click', () => {
+    members.classList.add('grid');
+    members.classList.remove('list');
+});
+
+listButton.addEventListener ('click', () => {
+    members.classList.add('list');
+    members.classList.remove('grid');
+});

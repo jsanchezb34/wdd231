@@ -13,7 +13,7 @@
     "address": "123 Garden Ave, Santa Cruz, Bolivia",
     "phone": "+591 70012345",
     "website": "https://greenleafsc.com",
-    "image": "greenleaf.png",
+    "image": "../images/loremimg.svg",
     "membershipLevel": 3,
     "industry": "Landscaping & Gardening",
     "founded": 2008

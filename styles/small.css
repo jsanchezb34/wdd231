@@ -51,12 +51,17 @@ header img {
     padding: 10px;
 }
 
+
+
+
 header span{
     font-family: var(--heading-font);
     text-align: center;
     font-size: 1.2rem;
     color: var(--accent2-color);
 }
+
+
 
 
 .hamburger{
