@@ -16,5 +16,6 @@
  <p>Your phone: ${myInfo.get('phone')}</p>
  <p>Your E-mail: ${myInfo.get('email')}</p>
  `
+ 
 
  

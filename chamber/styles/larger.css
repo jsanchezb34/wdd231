@@ -36,6 +36,23 @@
   display: flex;
 }
 
+#join {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  justify-content: center;
+  margin: auto;
+}
+
+.cards {
+  max-width: 300px;
+  background-color: var(--accent2-color);
+  margin: 1rem;
+  border-radius: 20px;
+}
+
 .hamburger {
       display: none;
     }
@@ -85,6 +102,10 @@
   margin: .5rem;
 }
 
+.levelcard{
+  display: grid; 
+}
+
  footer {
   text-align: center;
  }
@@ -119,6 +140,14 @@
 
 #members div {
   margin: .5rem;
+}
+
+#join {
+  padding: auto;
+}
+.cards {
+  max-width: 500px;
+  justify-content: space-around;
 }
  
    footer {
