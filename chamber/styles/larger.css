@@ -109,6 +109,16 @@ form {
  footer {
   text-align: center;
  }
+ header li a {
+    color: var( --primary-color);
+    padding: 0;
+
+}
+
+header ul li{
+    margin: .5rem;
+    font-size: 1rem;
+}
 
 
 }
