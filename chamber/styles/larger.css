@@ -128,9 +128,9 @@ header ul li{
  
  @media (min-width: 1000px){
   
-    .hamburger {
-        display: none;
-    }
+.hamburger {
+    display: none;
+}
 
   #home {
     display: flex;
@@ -152,21 +152,19 @@ header ul li{
   margin: .5rem;
 }
 
-#join {
-  padding: auto;
-}
+
 .cards {
   max-width: 500px;
   justify-content: space-around;
 }
  
-   footer {
-    text-align: left;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      align-content: center;
-      place-items: center;
-   }
+footer {
+text-align: left;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  place-items: center;
+}
 
 
 

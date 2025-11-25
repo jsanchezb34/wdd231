@@ -151,6 +151,7 @@ main section {
     font-size: 3rem;
     font-weight: bolder;
 } 
+
 #weatherforecast p{
     display: flex;
     justify-content: space-between;
@@ -288,6 +289,7 @@ footer {
 
 
 footer img{
+    background-color:var(--accent2-color);
     border-radius: 40px;
     width: 3rem;
     padding: 1rem;
