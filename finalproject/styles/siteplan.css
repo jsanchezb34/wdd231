@@ -13,11 +13,15 @@
   }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(--color-accent2);
     background-color: var(--primary-color);
     color: var(--main-color);
     margin: 0;
     padding: 2rem;
+}
+
+*{
+    font-family: var(--font-primary);
 }
 
 h1 {
@@ -29,7 +33,7 @@ h2 {
 }
 
 h3 {
-    font-family: var(--heading-font);
+    font-family: var(--font-primary);
     color: var(--main-color);
 }
 
@@ -174,7 +178,7 @@ footer {
     height: 5rem;
     text-align: center;
     background-color: var(--color-accent1);
-    color: var(--);
+    color: var(--color-secondary);
     padding: 1rem;
     margin-top: 2rem;
 }
