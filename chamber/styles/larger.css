@@ -142,18 +142,16 @@ header ul li{
  }
 .card p {
   grid-area: description;
-  background-color: white;
   margin: auto;
 }
 
 .card address { 
-  background-color:RED;
   grid-area: address;
  }
 
 .card img {     
     grid-area: image;
-    width: 300px;
+    width: 300px 1fr;
  }
 .card button{
   grid-area: button;
