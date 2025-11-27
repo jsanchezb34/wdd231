@@ -243,6 +243,7 @@ div h3{
     padding: 0;
     max-width: 400px;
     margin: auto;
+    background-color:white;
 }
 
 figure{
@@ -256,9 +257,9 @@ figure img{
 
 
 #discover button {
-    padding: .5rem;
-    margin: 1rem;
-    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 20px;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     border: none;
@@ -271,7 +272,6 @@ section  {
 
 
 .card {
-   
   margin: 1rem;
   overflow: hidden;
   display: grid;
@@ -302,6 +302,7 @@ section  {
 
  .card button{
   grid-area: button;
+  
 }
 
 

@@ -122,28 +122,35 @@ header ul li{
 
 #discover {
     max-width: 700px;
+    margin: 1rem;
 }
 
 .card {
-  background-color: rgb(255, 176, 176);
+  margin: 1.5rem 0;
   grid-template-areas:
-    "name "
+    "name name"
     "image description"
     "image address"
-    "button"
+    "button button"
     ;
 }
 
 .card h2 {
-    grid-area: name;
+  display: flex;
+  grid-area: name;
     
  }
+.card p {
+  grid-area: description;
+  background-color: white;
+  margin: auto;
+}
+
 .card address { 
-    grid-area: address;
+  background-color:RED;
+  grid-area: address;
  }
-.card p { 
-    grid-area: description;
- }
+
 .card img {     
     grid-area: image;
     width: 300px;
@@ -186,23 +193,21 @@ header ul li{
 
 
 .cards {
-  max-width: 500px;
+  background-color: white;
+  max-width: 200px;
   justify-content: space-around;
 }
 
 #discover {
-  background-color: red;
-    max-width: 700px;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .card {
-  grid-template-areas:
-    "image name "
-    "image description"
-    "image address"
-    "image button"
-    ;
+  background-color: var(--accent2-color);
+  margin: 1rem;
 }
  
 footer {
@@ -213,6 +218,4 @@ text-align: left;
   place-items: center;
 }
 
-
-
-  }
+}
