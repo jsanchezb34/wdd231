@@ -120,6 +120,38 @@ header ul li{
     font-size: 1rem;
 }
 
+#discover {
+    max-width: 700px;
+}
+
+.card {
+  background-color: rgb(255, 176, 176);
+  grid-template-areas:
+    "name "
+    "image description"
+    "image address"
+    "button"
+    ;
+}
+
+.card h2 {
+    grid-area: name;
+    
+ }
+.card address { 
+    grid-area: address;
+ }
+.card p { 
+    grid-area: description;
+ }
+.card img {     
+    grid-area: image;
+    width: 300px;
+ }
+.card button{
+  grid-area: button;
+}
+
 
 }
   
@@ -156,6 +188,21 @@ header ul li{
 .cards {
   max-width: 500px;
   justify-content: space-around;
+}
+
+#discover {
+  background-color: red;
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+  grid-template-areas:
+    "image name "
+    "image description"
+    "image address"
+    "image button"
+    ;
 }
  
 footer {

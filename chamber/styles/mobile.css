@@ -236,6 +236,76 @@ div h3{
     padding: 1rem;
 }
 
+/*---------------body-main-discover---------------*/
+
+#discover {
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+figure{
+    display: flex;
+    margin: 0;
+}
+
+figure img{
+     width: 100%;
+}
+
+
+#discover button {
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+}
+
+section  {
+    background-color: var(--accent2-color);
+    border-radius: 20px;
+}
+
+
+.card {
+   
+  margin: 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+    "name"
+    "image"
+    "description"
+    "address"
+    "button"
+    ;
+}
+
+.card h2 { 
+
+    grid-area: name;
+ }
+.card address { 
+    grid-area: address;
+ }
+.card p { 
+    margin: 1rem;
+    grid-area: description;
+ }
+.card img {     
+    grid-area: image;
+    margin-bottom: 1rem;
+ }
+
+ .card button{
+  grid-area: button;
+}
+
+
+
 /*---------------Animations---------------*/
 
 @keyframes goldneon {
