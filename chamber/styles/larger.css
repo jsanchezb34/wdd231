@@ -146,12 +146,12 @@ header ul li{
 }
 
 .card address { 
-  grid-area: address;
+    grid-area: address;
  }
 
 .card img {     
     grid-area: image;
-    width: 300px 1fr;
+    width: 300px;
  }
 .card button{
   grid-area: button;
