@@ -17,7 +17,6 @@ body {
     background-color: var(--primary-color);
     color: var(--main-color);
     margin: 0;
-    padding: 2rem;
 }
 
 *{
@@ -41,137 +40,103 @@ p {
     font-size: 1.5rem;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-    font-size: 1.5rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--main-color);
-    font-weight: bold;
-}
 
 header {
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--accent1-color);
-    border-radius: 20px;
+    justify-content: flex-end;
+    background-color: var(--color-accent1);
     padding: 1rem;
+}
+
+.hamburger {
+    font-size: 2rem;
+    color: var(--color-secondary);
+    background-color: #ad0013;
+    border: none;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+header nav {
+    display: none;
+}
+
+header nav a {
+    color: var(--color-secondary);
+    padding: .5rem;
+    text-decoration: none;
 }
 
 main {
     text-align: center;
 }
 
-#sitename {
-    padding: 2rem;
-    background-color: var(--color-main);
-    border-radius: 30px;
-    color: var(--color-accent1);
-    margin: 1rem auto;
-    max-width: 500px;
+/* . . . GALERIA DE IMAGENS. . . */
 
-}
-
-#sitename p {
-    font-size: 1.5rem;
-}
-
-#sitepurpose {
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--color-accent2);
-    color: var(--primary-color);
-    border-radius: 30px;
-    margin: 1rem auto;
-    max-width: 500px;
-}
-
-#sitepurpose p {
-    font-size: 1.5rem;
-}
-
-#color {
-    background-color: var(--color-secondary);
-    border-radius: 30px;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 2rem;
-    margin: 1rem auto;
-    max-width: 500px;
-}
-
-#color h2 {
-    color: var(--main-color);
-    
-}
-
-#color h3 {
-    color: var(--color-secondary);
-    background-color: #ad0013;
-    padding: 1rem;
-    border-radius: 20px;
-}
-
-#color h4 {
-    background-color: var(--color-accent2);
-    color: var(--color-accent1);
-    padding: 1rem;
-    border-radius: 20px;
-    
-}
-
-#color h5 {
-    background-color: var(--color-main);
-    border-radius: 10px;
-    color: var(--color-accent2);
-    padding: 1rem;
-    border-radius: 20px;
-
+.slide img {
+  height: 100%;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
 
-
-#typography {
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    border-radius: 10px;
-    margin: 1rem auto;
-    max-width: 500px;
-    box-shadow: -.5px .5px 15px var(--color-main);
-}
-
-#typography h3,#typography h4 {
-    background-color: var(--primary-color);
-    border-radius: 30px;
-}
-
-#wireframe {
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    margin: 1rem auto;
-    max-width: 800px;
-}
-
-#wireframe img {
+.slide {
+    display: flex;
+    justify-self: center;
+    height:300px;
+    width: auto;
+    overflow-x: auto;
     max-width: 100%;
-    height: auto;
-    margin: 1rem;
 }
+
+#galery ::-webkit-scrollbar {
+    height: 10px;
+}
+
+#galery ::-webkit-scrollbar-track {
+    background-color:var(--color-accent2);
+}
+
+#galery ::-webkit-scrollbar-thumb{
+    background-color: var(--color-accent1);
+}
+
+
+
+.workshops img {
+  height: 200px;
+  width: 200px;
+  margin: 1rem;
+  border-radius: 100px;
+  width: auto;
+  transition: transform 0.3s ease;
+  background-color: var(--color-secondary);
+}
+
+
+.workshops {
+    display: flex;
+    justify-self: center;
+    height:300px;
+    width: auto;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+
+#talleres ::-webkit-scrollbar {
+   display: none;
+}
+
+
+
+
+
+
 
 footer {
     font-size: 1.5rem;

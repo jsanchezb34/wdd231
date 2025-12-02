@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Garage 77",
+    "specialty": "Cafe Racers and classic motorcycles",
+    "address": "Liberty Avenue #123, Santa Cruz",
+    "phone": "+591 70011111",
+    "email": "contact@garage77.com",
+    "founded": 2010,
+    "image": "images/logogarage77.png"
+  },
+
+  {
+    "name": "Custom Works",
+    "specialty": "Bobbers and retro motorcycles",
+    "address": "Busch Avenue #890, La Paz",
+    "phone": "+591 70033333",
+    "email": "hello@customworks.com",
+    "founded": 2008,
+    "image": "images/logocustomworks.png"
+  },
+
+   {
+    "name": "MotoLab",
+    "specialty": "Scramblers and off-road motorcycles",
+    "address": "Sucre Street #45, Cochabamba",
+    "phone": "+591 70022222",
+    "email": "info@motolab.com",
+    "founded": 2015,
+    "image": "images/logomotolab.png"
+  },
+  {
+    "name": "Speed Factory",
+    "specialty": "Sport and racing motorcycles",
+    "address": "San Martín Avenue #321, Santa Cruz",
+    "phone": "+591 70044444",
+    "email": "speed@factory.com",
+    "founded": 2012,
+    "image": "images/logospeedfactory.png"
+  },
+  {
+    "name": "San Miguel kustom",
+    "specialty": "Urban and minimalist motorcycles",
+    "address": "Bolívar Street #67, Tarija",
+    "phone": "+591 70055555",
+    "email": "urban@garage.com",
+    "founded": 2018,
+    "image": "images/logo1.jpg"
+  }
+]

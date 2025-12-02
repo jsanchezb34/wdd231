@@ -1,28 +1,36 @@
-async function showprojects() {
-    try {
-        const response = await fetch("motorcycles.json");
-        const projects = await response.json();
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch("data/motorcycles.json");
+    const data = await response.json();
 
-        const slideSection = document.querySelector(".slide");
-        slideSection.innerHTML = ""; 
+    const slideContainer = document.querySelector(".slide");
 
-        projects.forEach(project => {
-            const container = document.createElement("div");
+    data.forEach(item => {
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = item.projectName || "Moto personalizada";
+      slideContainer.appendChild(img);
+    });
+  } catch (error) {
+    console.error("Error cargando JSON:", error);
+  }
+});
 
-            container.innerHTML = `
-            <img src="${project.image}" alt="${project.projectName}">
-            <h3>${project.projectName}</h3>
-            <p><strong>Builder:</strong> ${project.builderName}</p>
-            <p><strong>Workshop:</strong> ${project.workshopName}</p>
-            <p>${project.description}</p>
-            `;
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch("data/workshops.json");
+    const data = await response.json();
 
-            slideSection.appendChild(container);
-        });
-    }  catch (error) {
-        console.error("error loading projects: ", error);
-    } 
-    
-}
+    const slideContainer = document.querySelector(".workshops");
 
-showprojects();
+    data.forEach(item => {
+      const img = document.createElement("img");
+      img.src = item.image;
+      img.alt = item.projectName || "talleres";
+      slideContainer.appendChild(img);
+    });
+  } catch (error) {
+    console.error("Error cargando JSON:", error);
+  }
+});
+

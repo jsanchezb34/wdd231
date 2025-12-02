@@ -1,0 +1,83 @@
+@media (min-width: 600px){
+
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+   header nav:hover {
+    display: flex;
+  }
+
+   header ul a:hover {
+    transform: scale(1.2);
+    background-color: blue;
+    text-decoration: double;
+  }
+
+
+}
+  
+
+ /*--------------- 1000px wider-----------------*/
+ 
+ @media (min-width: 1000px){
+  
+.hamburger {
+    display: none;
+}
+
+  #home {
+    display: flex;
+    max-width: 1200px;
+   }
+
+  #home div {
+      width: 600px;
+   }
+
+  #members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#members div {
+  margin: .5rem;
+}
+
+
+.cards {
+  background-color: white;
+  max-width: 200px;
+  justify-content: space-around;
+}
+
+#discover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background-color: var(--accent2-color);
+  margin: 1rem;
+}
+ 
+footer {
+text-align: left;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  place-items: center;
+}
+
+}
