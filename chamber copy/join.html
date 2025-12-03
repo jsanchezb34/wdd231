@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of commerce||Join page</title>
+    <meta name="description" content="Chamber of commerce Join page wdd231 course learning project">
+    <meta name="author" content="Jose Sanchez">
+    <meta name="url" content="https://jsanchezb34.github.io/wdd231/">
+    
+
+    <meta property="og:title" content= "Chamber of commerce">
+    <meta property="og:description" content= "Chamber of commerce wdd231 course learning project">
+    <meta property="og:url" content="https://jsanchezb34.github.io/wdd231/chamber/directory">
+    <meta property="og:image" content="https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<!--Body-->
+
+<body>
+
+    <header>
+        <img src="images/bonsai.png" alt="Bonsai icon">
+        <span>Jose´s Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger" aria-label="Toggle navigation">☰</button>
+        <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+    <div id="join">
+        <div id="MembershipApplicationForm">
+    <h1>Membership Application Form</h1>
+    <form method="GET" action="thankyou.html" class="designOne">
+
+        <h3>Personal Info</h3>
+        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+        <label>Organization title <input type="text" name="organization-title" title="applicant's organizational title" autocomplete="organization-title" ></label>
+        <label>Email <input type="email" name="email" required placeholder="example@gmail.com"  title="Your Email" autocomplete="email"></label>
+        <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" required></label>
+          
+
+        <h3>Membership level</h3>
+        <label><input type="radio" name="level" value="gold"> Gold Membership</label>
+        <label><input type="radio" name="level" value="silver"> Silver Membership</label>
+        <label><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+        <label><input type="radio" name="level" value="np"> Non Profit Membership</label>
+
+        <h3>Business/Organization description</h3>
+        <label>Organization name <input type="text" name="organizationName" title="Business/Organization name" autocomplete="organization" required></label>
+        <label>Organization description <textarea name="description" title="Business or Organization Description"></textarea></label>
+
+        
+        <input type="hidden" name="timestamp" id="timestamp">
+
+        <input type="submit" value="Send Membership Application">
+    </form>
+    </div>
+
+    <section class="cards">
+    <h2>Level Information</h2>
+    <div class="levelcard" id="goldCard">
+        <h3>goldCard</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci in consequatur nostrum placeat cumque magni accusantium ex amet esse quaerat vitae cupiditate sapiente iusto, voluptatem illum facilis possimus. Odit facilis quibusdam nulla reiciendis dolores nostrum excepturi, aliquid accusantium vel! Delectus, minima. Odit velit illo vel exercitationem eveniet dolorum reprehenderit autem!</p>
+    </div>
+     <div class="levelcard" id="silverCard">
+        <h3>silverCard</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam deserunt aut qui assumenda est ipsa exercitationem consequatur voluptate, nesciunt ea saepe aspernatur illum non voluptatem dolor suscipit ipsam explicabo?</p>
+    </div>
+     <div class="levelcard" id="bronzecard">
+        <h3>bronzecard</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem adipisci minima saepe doloremque atque nesciunt at perspiciatis quasi modi!</p>
+    </div>
+     <div class="levelcard" id="npCard">
+        <h3>npcard</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, consequuntur.</p>
+    </div>
+    </section>
+    </div>
+
+  </main>
+
+
+    <!--Footer-->
+   <footer>
+        <div class="contact">
+        <h2>Santa Cruz Chamber of commerce </h2>
+        <p></p>
+        <p>Santa Cruz, Bolivia 0000</p>
+        <p>E-Mail placeholder</p>
+        <p>(000) 111 2222 3333</p>
+        </div>
+
+        <div class="social">
+            <a href="" target="_blank"><img src="images/github.svg" alt="" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/linkedin.svg" alt="" width="16" height="16"></a>
+            <a href="" target="_blank"><img src="images/youtube.svg" alt="" width="16" height="16"></a>
+        </div>
+        <div class="info">
+            <p>WDD 231 || Class Project </p>
+            <p>Jose Sanchez</p>
+            <p>&copy; 2025 Santa Cruz Chamber of commerce</p>
+            <p>Last modified on: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+<!--scripts-->
+    <script src="scripts/date.js"></script>
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script>
+        document.getElementById("lastModified").innerHTML = document.lastModified;
+    </script>
+
+</body>
+</html>
