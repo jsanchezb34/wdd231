@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  
   }
 
   header img {
@@ -20,9 +21,11 @@
     margin: 0;
   }
 
-  .navigation ul li {
-    padding: .5rem;
+  .navigation ul li a {
+    padding: .2rem;
+    color: var(--accent1-color);
   }
+
 
  #home {
     display: grid;

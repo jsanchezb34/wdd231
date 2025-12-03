@@ -1,26 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
+
 :root{
-    --main-color : #769382;
-    --primary-color:#2a2929 ;
-    --secondary-color:#769382 ;
-    --accent1-color: #C0C3b9 ;
+    --main-color : #121312;
+    --primary-color:#ad0013 ;
+    --secondary-color:#e8b367 ;
+    --accent1-color: #f5f5f5 ;
     --accent2-color: #f3efe3;
-    --accent3-color: #0d0dc4;
     
-    --heading-font: 'roboto';
-    --paragraph-font: 'roboto';
+    --heading-font: 'macondo';
+    --paragraph-font: 'macondo';
 
 }
 
 * {
-    font-family: 'roboto';
+    font-family: 'macondo';
     color: var(--primary-color);
     text-decoration: none;
+}
+
+body {
+    background-color: var(--main-color);
 }
 
 
 /*---------------Header---------------*/
 header {
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     height: 50px;
@@ -29,13 +34,13 @@ header {
 }
 
 header img {
-    width: 3rem;
+    width: 5rem;
 }
 
 header span{
     font-size: 1.5rem;
     font-weight: bolder;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 
@@ -44,9 +49,11 @@ header nav{
 }
 
 header nav.show {
+  position: absolute;
   display: flex;
   justify-content: flex-end;
-  margin-top: 15rem;
+  margin-top:16rem;
+  margin-left: 10rem;
   width: 300px;
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -73,7 +80,8 @@ header li:hover {
 
 #ham-btn {
   font-size: 1.5rem;
-  background-color: white;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   border: none;
   cursor: pointer;
   position: absolute;
@@ -89,9 +97,7 @@ header li:hover {
 
 
 
-/*---------------Body---------------*/
-
-
+/*. . . . . Body. . . . . . */
 #hero {
     position: relative;
     background-color: var(--main-color);
@@ -101,9 +107,6 @@ header li:hover {
     overflow: hidden;
 }
 
-#hero h2 {
-    margin: 2rem;
-}
 #hero img{
     width: 100%;
     height: 100%;
@@ -113,6 +116,8 @@ header li:hover {
 
 #tickets {
     position: absolute;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
     padding: 1rem;
     border-radius: 10px;
     bottom: 20px;
@@ -125,11 +130,20 @@ header li:hover {
     transition: transform 0.3s ease-in-out;
 }
 
+/*. . . . . Body - main. . . . . . */
 
 
+main h1 {
+    margin: 1rem;
+    color: var(--secondary-color);
+}
 main section {
     text-align: center;
     margin: 0.5rem;
+}
+
+main h2 {
+    color: var(--secondary-color);
 }
 
 #home {
@@ -143,166 +157,63 @@ main section {
     margin: 1rem;
     height: auto;
     min-height: 15rem;
-    border-radius: 20px;
 }
 
-#currentweather span{
-    color: var(--primary-color);
-    font-size: 3rem;
-    font-weight: bolder;
-} 
 
-#weatherforecast p{
+/* . . . GALERIA DE IMAGENS. . . */
+
+.slide img {
+  height: 100%;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+
+.slide {
     display: flex;
-    justify-content: space-between;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    justify-self: center;
+    height:300px;
+    width: auto;
+    overflow-x: auto;
+    max-width: 100%;
 }
-#weatherforecast span{
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    font-weight: bolder;
-} 
 
-#home div img {
-    height: 5rem;
+#galery ::-webkit-scrollbar {
+    height: 10px;
 }
-div h3{
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    padding: 0.5rem;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
+#galery ::-webkit-scrollbar-track {
+    background-color:var(--color-accent2);
+}
+
+#galery ::-webkit-scrollbar-thumb{
+    background-color: var(--color-accent1);
 }
 
 
-#businesscards {
-    min-height: 500px ;
-    overflow: hidden;
-    margin: 2rem;
-    border-radius: 20px;
-}
 
-#businesscards button {
-    font-size: 1.5rem;
-    padding: .5rem;
-    margin: .5rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
-    transition: .4s ease-in-out;
-}
-
-
-#businesscards button:hover {
-    transform: scale(1.1);
-    transition: .2s ;
-    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
-
-}
-
-#members div{
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 20px;
-}
-/*---------------body-main-levelcards---------------*/
-
-.levelcard{
-    padding: 1rem;
-    margin: 1rem;
-    max-width: 600px;  
-    border-radius: 30px; 
-}
-
-#goldCard h3{
- animation: goldneon .9s ease-in-out infinite alternate;
-}
-
-#silverCard h3{
- animation: silverneon .9s ease-in-out infinite alternate;
-}
-
-#bronzecard h3{
- animation: bronzeneon .9s ease-in-out infinite alternate;
-}
-
-.levelcard p{
-    padding: 1rem;
-}
-.levelcard h3{
-    padding: 1rem;
-}
-
-/*---------------body-main-discover---------------*/
-
-#discover {
-    margin: 0;
-    padding: 0;
-    max-width: 400px;
-    margin: auto;
-    background-color:white;
-}
-
-figure{
-    display: flex;
-    margin: 0;
-}
-
-figure img{
-     width: 100%;
-}
-
-
-#discover button {
-    padding: 1rem;
-    margin: 3rem;
-    border-radius: 20px;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    border: none;
-}
-
-section  {
-    background-color: var(--accent2-color);
-    border-radius: 20px;
-}
-
-
-.card {
+.workshops img {
+  height: 200px;
+  width: 200px;
   margin: 1rem;
-  overflow: hidden;
-  display: grid;
-  grid-template-areas:
-    "name"
-    "image"
-    "description"
-    "address"
-    "button"
-    ;
+  border-radius: 100px;
+  width: auto;
+  transition: transform 0.3s ease;
+  background-color: var(--color-secondary);
+}
+/* . . . GALERIA DE TALLERES. . . */
+.workshops {
+    display: flex;
+    justify-self: center;
+    height:300px;
+    width: auto;
+    overflow-x: auto;
+    max-width: 100%;
 }
 
-.card h2 { 
 
-    grid-area: name;
- }
-.card address { 
-    grid-area: address;
- }
-.card p { 
-    margin: 1rem;
-    grid-area: description;
- }
-.card img {     
-    grid-area: image;
-    margin-bottom: 1rem;
- }
-
- .card button{
-  grid-area: button;
-  
+#talleres ::-webkit-scrollbar {
+   display: none;
 }
 
 
