@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", async () => {
       slideContainer.appendChild(img);
     });
   } catch (error) {
-    console.error("Error cargando JSON:", error);
+    console.error("Error:", error);
   }
 });
 
-//. . . . . . show workshops. . . . .   . . .
+//. . . . . . show workshops slide. . . . .   . . .
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("data/workshops.json");
