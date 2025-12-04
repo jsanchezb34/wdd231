@@ -4,69 +4,69 @@
     "contact": "+591 70111111",
     "description": "Specialist in Cafe Racers with classic finishes.",
     "workshop": "Garage 77",
-    "image": "images/constructors/johnperez.jpeg"
+    "image": "images/ppjhonperez.png"
   },
   {
     "name": "Anna Lopez",
     "contact": "+591 70122222",
     "description": "Designer of versatile Scramblers for road and mountain.",
     "workshop": "MotoLab",
-    "image": "images/constructors/annalopez.jpeg"
+    "image": "images/ppanalopez.png"
   },
   {
     "name": "Charles Diaz",
     "contact": "+591 70133333",
     "description": "Builder of retro Bobbers with minimalist style.",
     "workshop": "Custom Works",
-    "image": "images/constructors/charlesdiaz.jpeg"
+    "image": "images/ppcharlesdiaz.png"
   },
   {
     "name": "Luis Fernandez",
     "contact": "+591 70144444",
     "description": "Expert in high-performance sport motorcycles.",
     "workshop": "Speed Factory",
-    "image": "images/constructors/luisfernandez.jpeg"
+    "image": "images/ppluisfernandez.png"
   },
   {
     "name": "Maria Gomez",
     "contact": "+591 70155555",
     "description": "Designer of urban motorcycles with modern aesthetics.",
     "workshop": "Urban Garage",
-    "image": "images/constructors/mariagomez.jpeg"
+    "image": "images/ppmariagomez.png"
   },
   {
     "name": "Peter Ramirez",
     "contact": "+591 70166666",
     "description": "Builder of classic motorcycles with personalized details.",
     "workshop": "Garage 77",
-    "image": "images/constructors/peterramirez.jpeg"
+    "image": "images/pppeterramirez.png"
   },
   {
     "name": "Sophia Torres",
     "contact": "+591 70177777",
     "description": "Specialist in durable Scramblers for long trips.",
     "workshop": "MotoLab",
-    "image": "images/constructors/sophiatorres.jpeg"
+    "image": "images/ppmariagomez.png"
   },
   {
     "name": "Diego Castro",
     "contact": "+591 70188888",
     "description": "Designer of Bobbers with artistic focus.",
     "workshop": "Custom Works",
-    "image": "images/constructors/diegocastro.jpeg"
+    "image": "images/ppdiegocastro.png"
   },
   {
     "name": "Valeria Rojas",
     "contact": "+591 70199999",
     "description": "Constructor of racing motorcycles with advanced aerodynamics.",
     "workshop": "Speed Factory",
-    "image": "images/constructors/valeriarojas.jpeg"
+    "image": "images/ppmariagomez.png"
   },
   {
     "name": "Michael Herrera",
     "contact": "+591 70200000",
     "description": "Designer of minimalist and functional urban motorcycles.",
     "workshop": "Urban Garage",
-    "image": "images/constructors/michaelherrera.jpeg"
+    "image": "images/pp.png"
   }
 ]

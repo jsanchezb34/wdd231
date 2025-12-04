@@ -216,6 +216,36 @@ main h2 {
    display: none;
 }
 
+/*. . . . .body constructores . . . .*/
+
+
+.constructor-card {
+  background-color: var(--accent1-color);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 29px;
+  margin: 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+    "image"
+    "name"
+    "contact"
+    "workshop"
+    "description";
+}
+
+.constructor-card img { grid-area: image; }
+.constructor-card h3 { grid-area: name; }
+.constructor-card .contact { grid-area: contact; }
+.constructor-card .workshop { grid-area: workshop; }
+.constructor-card .description { grid-area: description; }
+
+.constructor-card img {
+  max-width: 350px;
+  border-radius: 50px;
+  margin: auto;
+}
 
 
 /*---------------Animations---------------*/
