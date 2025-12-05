@@ -277,6 +277,12 @@ dialog button {
   border: none;
 }
 
+dialog button:hover {
+  transform: scale(1.2);
+  transition: .5s;
+
+}
+
 dialog::-webkit-scrollbar {
   background-color: #121312;
   
@@ -286,7 +292,6 @@ dialog::-webkit-scrollbar-track {
   background: var(--main-color); 
 }
 
-/* La barra en sí (thumb) */
 dialog::-webkit-scrollbar-thumb {
   background: var(--primary-color);
   border-radius: 10px;
