@@ -307,8 +307,9 @@ dialog::-webkit-scrollbar-thumb {
 
 
 .constructor-card {
+  
   background-color: var(--accent1-color);
-  margin: 1rem;
+  margin: auto;
   padding: 1rem;
   border-radius: 29px;
   margin: 1rem;
@@ -333,6 +334,8 @@ dialog::-webkit-scrollbar-thumb {
   border-radius: 50px;
   margin: auto;
 }
+
+
 
 
 /*---------------Animations---------------*/

@@ -161,8 +161,8 @@ header ul li{
 }
 
 
-
 .constructor-card {
+    max-width: 700px;
     grid-template-areas:
     "image name"
     "image description"
@@ -172,8 +172,10 @@ header ul li{
   
 }
 
+
+
 #workshopscard {
-  max-width: 600px;
+  max-width: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr; 
 }
@@ -201,42 +203,6 @@ header ul li{
     display: none;
 }
 
-  #home {
-    display: flex;
-    max-width: 1200px;
-   }
-
-  #home div {
-      width: 600px;
-   }
-
-  #members {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  padding: 1rem;
-}
-
-#members div {
-  margin: .5rem;
-}
-
-
-.cards {
-  background-color: white;
-  max-width: 200px;
-  justify-content: space-around;
-}
-
-#discover {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
-  margin: auto;
-}
-
-
-
 .constructor-card {
   display: grid;
   grid-template-columns: 1fr 1fr;  
@@ -244,6 +210,11 @@ header ul li{
 
 .constructor-card img {
   max-width: 400px;
+}
+
+#constructors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #workshopscard {
