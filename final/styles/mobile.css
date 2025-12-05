@@ -259,6 +259,10 @@ dialog {
   transition: .5s;
 }
 
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 #modalGallery img{
   width:80%;
 

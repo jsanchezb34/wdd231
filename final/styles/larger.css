@@ -173,6 +173,7 @@ header ul li{
 }
 
 #workshopscard {
+  max-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr; 
 }
@@ -184,6 +185,8 @@ header ul li{
 .workshop-card {
   margin: 1rem;
 }
+
+
 
 
 
@@ -245,9 +248,19 @@ header ul li{
 
 #workshopscard {
   display: grid;
+  max-width: 1000px;
   grid-template-columns: 1fr 1fr 1fr; 
 }
- 
+
+#modalGallery {
+  max-width: 800px;
+  margin: auto;
+}
+
+#modalGallery img {
+  border-radius: 20px;
+  
+}
 footer {
 text-align: left;
   display: grid;
