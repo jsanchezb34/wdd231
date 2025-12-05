@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
+
+    <script type="module" src="scripts/modalitems.js"></script>
+
 </head>
     <!------------------------Body---------------------->
 
@@ -31,8 +34,9 @@
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="constructors.html">CONSTRUCTORS</a></li>
-            <li><a href="join.html">JOIN</a></li>
             <li><a href="workshops.html">WORKSHOPS</a></li>
+            <li><a href="join.html">JOIN</a></li>
+
         </ul>
         </nav>
     </header>
@@ -44,7 +48,7 @@
             <button id="tickets"><a href="join.html">Join the community</a></button>
         </div> 
         <h1>Home</h1>
-          <section id="galery">
+          <section id="moto-card">
             <h2>Galeria</h2>
             <section class="slide"> </section>
           </section>
@@ -54,13 +58,6 @@
             <section class="workshops"> </section>
         </section>
 
-        
-
-        <section id="home">
-            <div id="events">
-                <h3>Events</h3>
-            </div>
-       
            
         <dialog id="myModal">
         <h2>Modal Dialog</h2>
@@ -95,6 +92,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/items.js"></script>
+    <script src="scripts/modalitems.js"></script>
     <script>document.getElementById("lastModified").innerHTML = document.lastModified;</script>
     <script>document.getElementById("currentYear").innerHTML = document.lastModified;</script>
 

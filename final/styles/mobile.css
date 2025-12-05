@@ -178,15 +178,15 @@ main h2 {
     max-width: 100%;
 }
 
-#galery ::-webkit-scrollbar {
+#moto-card ::-webkit-scrollbar {
     height: 10px;
 }
 
-#galery ::-webkit-scrollbar-track {
+#moto-card ::-webkit-scrollbar-track {
     background-color:var(--color-accent2);
 }
 
-#galery ::-webkit-scrollbar-thumb{
+#motocard ::-webkit-scrollbar-thumb{
     background-color: var(--color-accent1);
 }
 
@@ -199,8 +199,9 @@ main h2 {
   border-radius: 100px;
   width: auto;
   transition: transform 0.3s ease;
-  background-color: var(--color-secondary);
+  background-color: var(--accent2-color);
 }
+/* . . . workshops styles. . . . */
 /* . . . GALERIA DE TALLERES. . . */
 .workshops {
     display: flex;
@@ -215,6 +216,83 @@ main h2 {
 #talleres ::-webkit-scrollbar {
    display: none;
 }
+
+/* - - - -  workshops.html - - - - - */
+
+#workshopscard {
+  overflow: hidden;
+  margin: auto;
+  max-width: 400px; 
+  cursor: pointer; 
+}
+
+.workshop-card:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.workshop-card {
+  overflow: hidden;
+  border-radius: 30px;
+  margin: 2rem;
+  background-color: var(--secondary-color);
+   transition: .5s;
+}
+
+#workshopscard p,
+#workshopscard h3{
+  color: var(--primary-color);
+}
+
+#workshopscard img {
+  background-color: var(--accent1-color);
+  width: 100%;
+}
+
+/*. . modal . . */
+
+dialog {
+  width: 80%;
+  height: 80%;
+  border: none;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+#modalGallery img{
+  width:80%;
+
+}
+
+#modalDetails img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+dialog button {
+  font-size: 2rem;
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+
+dialog::-webkit-scrollbar {
+  background-color: #121312;
+  
+}
+
+dialog::-webkit-scrollbar-track {
+  background: var(--main-color); 
+}
+
+/* La barra en sí (thumb) */
+dialog::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+
 
 /*. . . . .body constructores . . . .*/
 

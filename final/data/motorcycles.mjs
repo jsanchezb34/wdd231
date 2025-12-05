@@ -1,3 +1,4 @@
+export const motos = 
 [
   {
     "name": "Cafe Racer Project",

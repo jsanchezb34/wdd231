@@ -1,22 +1,6 @@
-document.addEventListener("DOMContentLoaded", async () => {
-  try {
-    const response = await fetch("data/motorcycles.json");
-    const data = await response.json();
 
-    const slideContainer = document.querySelector(".slide");
 
-    data.forEach(item => {
-      const img = document.createElement("img");
-      img.src = item.image;
-      img.alt = item.projectName || "Moto personalizada";
-      slideContainer.appendChild(img);
-    });
-  } catch (error) {
-    console.error("Error:", error);
-  }
-});
-
-//. . . . . . show workshops slide. . . . .   . . .
+//. . . . . . show workshops. . . . .   . . .
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     const response = await fetch("data/workshops.json");

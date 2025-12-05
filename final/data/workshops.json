@@ -6,9 +6,12 @@
     "phone": "+591 70011111",
     "email": "contact@garage77.com",
     "founded": 2010,
-    "image": "images/logogarage77.png"
+    "image": "images/logogarage77.png",
+    "photos": [
+      "images/moto6.jpeg",
+      "images/moto11.jpeg"
+    ]
   },
-
   {
     "name": "Custom Works",
     "specialty": "Bobbers and retro motorcycles",
@@ -16,17 +19,24 @@
     "phone": "+591 70033333",
     "email": "hello@customworks.com",
     "founded": 2008,
-    "image": "images/logocustomworks.png"
+    "image": "images/logocustomworks.png",
+    "photos": [
+      "images/moto8.jpeg",
+      "images/moto13.jpeg"
+    ]
   },
-
-   {
+  {
     "name": "MotoLab",
     "specialty": "Scramblers and off-road motorcycles",
     "address": "Sucre Street #45, Cochabamba",
     "phone": "+591 70022222",
     "email": "info@motolab.com",
     "founded": 2015,
-    "image": "images/logomotolab.png"
+    "image": "images/logomotolab.png",
+    "photos": [
+      "images/moto7.jpeg",
+      "images/moto12.jpeg"
+    ]
   },
   {
     "name": "Speed Factory",
@@ -35,7 +45,11 @@
     "phone": "+591 70044444",
     "email": "speed@factory.com",
     "founded": 2012,
-    "image": "images/logospeedfactory.png"
+    "image": "images/logospeedfactory.png",
+    "photos": [
+      "images/moto9.png",
+      "images/moto14.jpeg"
+    ]
   },
   {
     "name": "San Miguel kustom",
@@ -44,6 +58,10 @@
     "phone": "+591 70055555",
     "email": "urban@garage.com",
     "founded": 2018,
-    "image": "images/logo1.jpg"
+    "image": "images/logo1.jpg",
+    "photos": [
+      "images/moto10.jpeg",
+      "images/moto15.jpeg"
+    ]
   }
 ]
