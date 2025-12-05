@@ -172,6 +172,19 @@ header ul li{
   
 }
 
+#workshopscard {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+.workshops {
+  width: 100%;
+}
+
+.workshop-card {
+  margin: 1rem;
+}
+
 
 
 }
@@ -228,6 +241,11 @@ header ul li{
 
 .constructor-card img {
   max-width: 400px;
+}
+
+#workshopscard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
 }
  
 footer {

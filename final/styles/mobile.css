@@ -222,7 +222,7 @@ main h2 {
 #workshopscard {
   overflow: hidden;
   margin: auto;
-  max-width: 400px; 
+  width: 80%; 
   cursor: pointer; 
 }
 
