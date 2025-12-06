@@ -98,6 +98,10 @@ header li:hover {
 
 
 /*. . . . . Body. . . . . . */
+
+h1 {
+  color: var(--secondary-color);
+}
 #hero {
     position: relative;
     background-color: var(--main-color);
@@ -135,7 +139,7 @@ header li:hover {
 
 main h1 {
     margin: 1rem;
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 main section {
     text-align: center;
@@ -235,13 +239,13 @@ main h2 {
   overflow: hidden;
   border-radius: 30px;
   margin: 2rem;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
    transition: .5s;
 }
 
 #workshopscard p,
 #workshopscard h3{
-  color: var(--primary-color);
+  color: var(--accent1-color);
 }
 
 #workshopscard img {
@@ -307,7 +311,6 @@ dialog::-webkit-scrollbar-thumb {
 
 
 .constructor-card {
-  
   background-color: var(--accent1-color);
   margin: auto;
   padding: 1rem;
