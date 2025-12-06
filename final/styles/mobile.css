@@ -338,49 +338,7 @@ dialog::-webkit-scrollbar-thumb {
 
 
 
-/*---------------Animations---------------*/
 
-@keyframes goldneon {
-  from {
-    
-  }
-  to {
-    color: gold;
-    transform: scale(1.05);
-    box-shadow: 0px 0px 80px gold;
-  }
-}
-
-@keyframes silverneon {
-  from {
-    
-  }
-  to {
-    color: rgb(175, 175, 175);
-    transform: scale(1.05);
-    box-shadow: 0px 0px 80px silver;
-  }
-}
-
-@keyframes bronzeneon {
-  from {
-    
-  }
-  to {
-    color: orangered;
-    transform: scale(1.05);
-    box-shadow: 0px 0px 80px rgb(255, 132, 10);
-  }
-}
-
-@keyframes neontrying {
-  from {
-    
-  }
-  to {
-    transform: scale(1.05);
-  }
-}
 
 /*---------------Footer---------------*/
 
