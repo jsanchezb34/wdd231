@@ -20,6 +20,7 @@
 
 body {
     background-color: var(--main-color);
+    overflow-x: hidden;
 }
 
 
@@ -180,10 +181,11 @@ main h2 {
     width: auto;
     overflow-x: auto;
     max-width: 100%;
+    padding: 0;
 }
 
 #moto-card ::-webkit-scrollbar {
-    height: 10px;
+    height: 0px;
 }
 
 #moto-card ::-webkit-scrollbar-track {
@@ -209,7 +211,7 @@ main h2 {
 /* . . . GALERIA DE TALLERES. . . */
 .workshops {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     height:300px;
     width: auto;
     overflow-x: auto;
