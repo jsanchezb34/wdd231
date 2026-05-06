@@ -27,3 +27,5 @@ document.querySelector("#results").innerHTML = `
 <p>${myInfo.get('phone')}</p>
 
 `
+
+//const ward = <p><strong>Home Ward</strong>: " + homeWard;</p>
