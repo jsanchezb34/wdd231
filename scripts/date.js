@@ -1,2 +1,2 @@
 const today =new Date();
-console.log(hoy.toDateString());
+console.log(today.toDateString());
