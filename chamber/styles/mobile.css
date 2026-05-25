@@ -385,6 +385,7 @@ form {
     border-radius: 20px;
     width: auto;
     max-width: 400px;
+}
 
   
     label {
@@ -437,7 +438,7 @@ form {
       appearance: none;
     }
 
-  }
+  
   input:-webkit-autofill{
     -webkit-text-fill-color: var(--primary-color);
   }
