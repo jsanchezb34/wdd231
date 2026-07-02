@@ -1,3 +1,4 @@
+
 @media (min-width: 600px){
 
   header {
@@ -12,6 +13,8 @@
     width: 4rem;
     height: auto;
    } 
+
+
 
   .navigation ul {
     list-style: none;
@@ -169,6 +172,10 @@ body img:hover {
  /*--------------- 1000px wider-----------------*/
  
  @media (min-width: 1000px){
+
+  main {
+    display: none;
+}
   
 .hamburger {
     display: none;
@@ -176,6 +183,7 @@ body img:hover {
 
   #home {
     display: flex;
+    background-color: red;
     max-width: 1200px;
    }
 

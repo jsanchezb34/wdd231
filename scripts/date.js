@@ -1,2 +1,3 @@
-const today =new Date();
-console.log(today.toDateString());
+const today = new Date();
+document.getElementById("lastModified").textContent = document.lastModified;
+document.getElementById("currentyear").textContent = today.getFullYear();
