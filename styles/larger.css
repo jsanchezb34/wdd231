@@ -1,13 +1,4 @@
 
-.Course-card {
-  display: flex;              
-  flex-direction: column;     
-  justify-content: space-between; 
-  height: 100%;               
-  box-sizing: border-box;  
-}
-
-/*------------------------*/
 
  main h1{
         background-color: var(--main-color);
@@ -51,6 +42,27 @@
     .navigation a{
         border: none;
     }
+ .home {
+    display: grid;
+    grid-template-rows: auto 1fr;      
+    grid-template-columns: 2fr 1fr;   
+    gap: 1rem;
+}
+
+.home-title {
+  grid-column: 1 / span 2;        
+  text-align: center;
+}
+
+#about {
+  grid-column: 1;                    
+}
+
+.Profilepicture {
+  grid-column: 2;                    
+  text-align: center;
+}
+
 }
 @media screen and (min-width:1030px){
 /*-----------sections-------------*/
