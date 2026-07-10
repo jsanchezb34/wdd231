@@ -81,12 +81,3 @@
 }
 }
 
-@media screen and (min-width:1550px){
-    /*-----------sections-------------*/
-
-#course-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-}
