@@ -128,6 +128,7 @@ header li:hover {
 
 
 main section {
+    background-color: var(--accent2-color);
     text-align: center;
     margin: 0.5rem;
 }
@@ -166,6 +167,7 @@ main section {
 
 #home div img {
     height: 5rem;
+    width: auto;
 }
 div h3{
     background-color: var(--primary-color);
@@ -248,11 +250,17 @@ div h3{
 
 figure{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
 }
 
 figure img{
-     width: 100%;
+     width: auto;
+     max-width: 100%;
+     height: auto;
+
 }
 
 
