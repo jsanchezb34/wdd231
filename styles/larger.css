@@ -57,7 +57,7 @@
   grid-column: 1;                    
 }
 
-.Profilepicture {
+.profilepicture {
   grid-column: 2;                    
   text-align: center;
 }
@@ -80,4 +80,3 @@
     height: auto;
 }
 }
-

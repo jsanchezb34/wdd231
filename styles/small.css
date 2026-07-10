@@ -172,7 +172,6 @@ section h2 {
 #about{
     background-color: var(--secondary-color);
     border-radius: 20px;
-    padding: 1rem;
     overflow: auto;
 }
 
@@ -183,33 +182,32 @@ section h2 {
     text-align: center;
 }
 
-#Profilepicture{
+#profilepicture{
     background-color: var(--secondary-color);
     border-radius: 20px;
-    padding: 1rem;
     overflow: auto;
 }
 
-#Profilepicture h2{
+#profilepicture h2{
     margin-top:0;
     background-color: var(--accent2-color);
     color: var(--primary-color);
     text-align: center;
 }
 
-#Profilepicture figure {
+#profilepicture figure {
   display: flex;
   justify-content: center; 
   align-items: center; 
 }
 
-#Profilepicture img.student-photo {
+#profilepicture img.student-photo {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-#Profilepicture figcaption {
+#profilepicture figcaption {
   display: none; 
 }
 
