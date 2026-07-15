@@ -313,6 +313,29 @@ section  {
 }
 
 
+/*-------------grid-list----------------*/
+#members.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+#members.list {
+  display: block;
+}
+#members.list img {
+  display: none;
+}
+
+
+#members.list .company-card {
+  display: flex;          
+  flex-direction: row;   
+  align-items: center;   
+  gap: 1rem;
+  padding: 1rem;
+}
+
 
 /*---------------Animations---------------*/
 

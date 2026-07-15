@@ -17,10 +17,10 @@ function displayCompanies(Companies){
       
       <img src="images/${company.image}" alt="${company.name}">
       <p>${company.name}</p>
-      <p><strong>Industry:</strong> ${company.industry}</p>
-      <p><strong>Address:</strong> ${company.address}</p>
-      <p><strong>Phone:</strong> ${company.phone}</p>
-      <p><strong>Founded:</strong> ${company.founded}</p>
+      <p>${company.industry}</p>
+      <p>${company.address}</p>
+      <p>${company.phone}</p>
+      <p>${company.founded}</p>
       <a href="${company.website}" target="_blank">Visit Website</a>
     `;
     container.appendChild(card);
