@@ -139,7 +139,8 @@ main section {
 }
 
 #home div {
-    background-color: var(--accent1-color);
+    box-shadow: 4px 4px 10px var(--primary-color);
+
     margin: 1rem;
     height: auto;
     min-height: 15rem;
