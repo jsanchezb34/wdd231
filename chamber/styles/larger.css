@@ -160,10 +160,7 @@ header ul li{
   grid-area: button;
 }
 
-body img:hover {
-  transform: scale(1.2);
-  transition: .5s;
-}
+
 
 
 }
