@@ -172,7 +172,6 @@ main section {
 #home div {
     margin: 1rem;
     height: auto;
-    min-height: 15rem;
     border-radius: 20px;
 }
 
@@ -202,6 +201,10 @@ main section {
     font-weight: bolder;
 } 
 
+#home div {
+    padding-bottom: .5rem;
+}
+
 #home div img {
     height: 5rem;
     width: auto;
@@ -215,23 +218,18 @@ div h3{
 }
 
 
-
-.company-card {
-   padding: .5rem;
-   align-items: center;
+.spotlight-card {
+    height: fit-content;
 }
+.spotlight-card img { 
+    border-radius: 50%;
+ }
 
-.company-card p{
-    margin: 0;
-    font-size: 2rem;
+
+.details span {
+    padding: .1rem;
+    margin: .1rem;
 }
-
-.company-card img{
-    border-radius: 50%;  
-}
-
-
-
 
 #businesscards {
     min-height: 500px ;

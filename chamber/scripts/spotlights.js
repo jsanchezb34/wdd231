@@ -15,12 +15,12 @@ fetch("data/members.json")
     // Renderizar las tarjetas
     spotlightMembers.forEach(company => {
       const card = document.createElement("div");
-      card.classList.add("company-card");
+      card.classList.add("spotlight-card");
 
       card.innerHTML = `
  <img src="${company.image.replace('../', '')}" alt="${company.name}">
  <p><strong>${company.name}</strong></p>
-         <div class="namenumber">
+         <div class="spotightdetails">
             <span>${company.address}</span>
             <span>${company.phone}</span>
         </div>

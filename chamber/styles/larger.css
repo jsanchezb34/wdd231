@@ -1,6 +1,8 @@
 
 @media (min-width: 600px){
 
+ 
+
   header {
   display: flex;
   justify-content: space-between;
@@ -60,9 +62,6 @@ form {
       display: none;
     }
 
- #home div {
-   height: 300px;
-}
 
  #events {
    grid-column: 1 /span 2;
@@ -73,21 +72,11 @@ form {
    grid-column: 1 /span 2;
    grid-row: 3;
  }
-
- .company-card {
-  display: flex;
-  justify-content: center;}
- 
-.company-card {
-  
-  background-color: red;
-  display: flex;
-  justify-content: center;
+ .spotlight-card {
+    display: flex;
 }
 
-.company-card p {
-  font-size: 1.5rem;
-}
+
 
  #currentweather {
    grid-column:2;
@@ -201,10 +190,7 @@ header ul li{
     max-width: 1200px;
    }
 
-  #home div {
-      width: 600px;
-   }
-
+ 
   #members {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
