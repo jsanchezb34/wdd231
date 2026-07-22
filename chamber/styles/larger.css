@@ -69,6 +69,26 @@ form {
    grid-row: 1;
  }
 
+  #spotlights {
+   grid-column: 1 /span 2;
+   grid-row: 3;
+ }
+
+ .company-card {
+  display: flex;
+  justify-content: center;}
+ 
+.company-card {
+  
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.company-card p {
+  font-size: 1.5rem;
+}
+
  #currentweather {
    grid-column:2;
    grid-row: 2;
@@ -178,7 +198,6 @@ header ul li{
 
   #home {
     display: flex;
-
     max-width: 1200px;
    }
 

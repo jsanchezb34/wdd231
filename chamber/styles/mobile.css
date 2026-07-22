@@ -170,12 +170,14 @@ main section {
 }
 
 #home div {
-    box-shadow: 4px 4px 10px var(--primary-color);
-
     margin: 1rem;
     height: auto;
     min-height: 15rem;
     border-radius: 20px;
+}
+
+.herocard {
+    box-shadow: 4px 4px 10px var(--primary-color);
 }
 
 #events {
@@ -211,6 +213,24 @@ div h3{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+
+
+.company-card {
+   padding: .5rem;
+   align-items: center;
+}
+
+.company-card p{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.company-card img{
+    border-radius: 50%;  
+}
+
+
 
 
 #businesscards {

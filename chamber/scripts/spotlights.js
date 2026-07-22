@@ -1,4 +1,4 @@
-fetch("members.json")
+fetch("data/members.json")
   .then(response => response.json())
   .then(data => {
     const companies = data.Companies; // asumiendo que tu JSON tiene la clave "Companies"
@@ -18,10 +18,12 @@ fetch("members.json")
       card.classList.add("company-card");
 
       card.innerHTML = `
-        <img src="${company.image}" alt="${company.name}">
-        <p><strong>${company.name}</strong></p>
-        <p>${company.address}</p>
-        <p>${company.phone}</p>
+ <img src="${company.image.replace('../', '')}" alt="${company.name}">
+ <p><strong>${company.name}</strong></p>
+         <div class="namenumber">
+            <span>${company.address}</span>
+            <span>${company.phone}</span>
+        </div>
       `;
 
       spotlights.appendChild(card);

@@ -50,18 +50,18 @@
 
     <main>
         <div id="hero">
-            <a id="cta" href="blank">Join Jose´s Chamber of Commerce</a>
+            <a id="cta" href="_blank">Join Jose´s Chamber of Commerce</a>
             <img src="images/nature.jpeg" alt="green nature picture" loading="lazy">
             <button id="tickets">Keynote tickets</button>
         </div> 
         <h1>Home</h1>
-        <section id="home">
-            <div id="events">
+        <section id="home" >
+            <div id="events" class="herocard">
                 <h2>Events</h2>
                 <p>OK</p>
                 
             </div>
-            <div id="currentweather">
+            <div id="currentweather" class="herocard">
                 <h3>Current Weather</h3>
                 <p>The current temperature in Santa Cruz, Bolivia is </p>
                 <p><span id="current-temp"></span></p>
@@ -70,7 +70,7 @@
                     <figcaption></figcaption>
                 </figure>
             </div>
-            <div id="weatherforecast">
+            <div id="weatherforecast" class="herocard">
                 <h3>Weather Forecast</h3>
                 <p>Today: <span id="forecast-Temp"></span></p>
                 <p>Tomorrow: <span id="weather-tomorrow"></span></p>
@@ -78,8 +78,9 @@
                 <p>(having hardtime trying to display dinamicaly the day)</p>
             </div>
 
-            <div id="spotlights">
-                  <script src="spotlights.js"></script>
+            <div id="spotlights" class="herocard">
+                <h3>Company Spotlights</h3>
+                  <script src="scripts/spotlights.js" defer></script>
             </div>
 
         </section>
