@@ -173,7 +173,14 @@ main section {
     margin: 1rem;
     height: auto;
     border-radius: 20px;
+    padding-bottom: .5rem;
 }
+
+#home div img {
+    height: 5rem;
+    width: auto;
+}
+
 
 .herocard {
     box-shadow: 4px 4px 10px var(--primary-color);
@@ -201,14 +208,9 @@ main section {
     font-weight: bolder;
 } 
 
-#home div {
-    padding-bottom: .5rem;
-}
 
-#home div img {
-    height: 5rem;
-    width: auto;
-}
+
+
 div h3{
     background-color: var(--primary-color);
     color: var(--accent2-color);
