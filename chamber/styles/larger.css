@@ -72,9 +72,6 @@ form {
    grid-column: 1 /span 2;
    grid-row: 3;
  }
- .spotlight-card {
-    display: flex;
-}
 
 
 
@@ -106,7 +103,7 @@ form {
     border-radius: 20px;
 }
 
-#members {
+#members.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
