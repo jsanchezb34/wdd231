@@ -19,7 +19,16 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
 
-    <script type="module" src="scripts/items.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script type="module" src="scripts/items.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
 </head>
     <!------------------------Body---------------------->
@@ -40,6 +49,7 @@
     </header>
 
     <main>
+        <h1>Discover</h1>
         <div class="cards" id="discover"></div>
     </main>
 <!------------------------Footer---------------------->
@@ -65,9 +75,6 @@
         </div>
     </footer>
 
-    <script src="scripts/date.js"></script>
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js"></script>
-    <script>document.getElementById("lastModified").innerHTML = document.lastModified;</script>
+    
 </body>
 </html>
