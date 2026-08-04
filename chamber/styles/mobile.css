@@ -299,7 +299,6 @@ div h3{
     margin: 0;
     padding: 0;
     max-width: 400px;
-    margin: auto;
     background-color:white;
 }
 
@@ -455,7 +454,6 @@ footer img{
 
 footer img:hover{
     background-color: var(--accent1-color);
-    transform: scale(1.2);
     transform: rotate(360deg) translate(0px) scale(1.2);
     transition: 1s;
 }
