@@ -327,17 +327,17 @@ dialog::-webkit-scrollbar-thumb {
     "description";
 }
 
-.constructor-card img { grid-area: image; }
+.constructor-card img {
+    grid-area: image;
+    max-width: 350px;
+    border-radius: 50px;
+    margin: auto;
+}
+
 .constructor-card h3 { grid-area: name; }
 .constructor-card .contact { grid-area: contact; }
 .constructor-card .workshop { grid-area: workshop; }
 .constructor-card .description { grid-area: description; }
-
-.constructor-card img {
-  max-width: 350px;
-  border-radius: 50px;
-  margin: auto;
-}
 
 
 
@@ -393,49 +393,49 @@ footer img:hover{
   margin: 2rem;
  }
 
-form {
-    background-color: var(--accent2-color);
-    margin: auto;
-    padding: 1rem;
-    border-radius: 20px;
-    width: auto;
-    max-width: 400px;
+  form {
+      background-color: var(--accent2-color);
+      margin: auto;
+      padding: 1rem;
+      border-radius: 20px;
+      width: auto;
+      max-width: 400px;
+  }
 
-    label {
-    display: block;
-    font-size: .8rem;
-    padding-top: .2rem;
-    }
-    h3 {
+  label {
+      display: block;
+      font-size: .8rem;
+      padding-top: .2rem;
+  }
+
+  form h3 {
       font-size: 2rem;
       margin: 1.5rem 0 .2rem 0;
-    }
+  }
 
-    input[type=text],
-    input[type=tel],
-    input[type=date],
-    input[type=email],
-   
-    
-    select {
+  input[type=text],
+  input[type=tel],
+  input[type=date],
+  input[type=email],
+  select {
       display: block;
-      margin: .1rem 0 1rem 0 ;
+      margin: .1rem 0 1rem 0;
       padding: .3rem;
       border-radius: 4px;
       border-left-width: 5px;
       font-size: 1rem;
       width: 250px;
-    }
-  
-    input:required {border-left-color: #f60404;}
-    input:required:valid{border-left-color: rgb(0, 243, 0);}
+  }
 
-    textarea {
-        height: 100px;
-        border-radius: 4px;
-    }
-  
-    input[type=submit] {
+  input:required { border-left-color: #f60404; }
+  input:required:valid { border-left-color: rgb(0, 243, 0); }
+
+  textarea {
+      height: 100px;
+      border-radius: 4px;
+  }
+
+  input[type=submit] {
       border: none;
       text-align: center;
       background-color: var(--primary-color);
@@ -446,9 +446,9 @@ form {
       font-size: 1.2rem;
       -webkit-appearance: none;
       appearance: none;
-    }
-
   }
+
+
   input:-webkit-autofill{
     -webkit-text-fill-color: var(--primary-color);
   }

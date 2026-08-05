@@ -1,2 +1,5 @@
-const today =new Date();
-console.log(today.toDateString());
+const lastModified = document.getElementById("lastModified");
+if (lastModified) lastModified.innerHTML = document.lastModified;
+
+const timestamp = document.getElementById("timestamp");
+if (timestamp) timestamp.value = new Date().toLocaleDateString();
