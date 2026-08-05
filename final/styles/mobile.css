@@ -16,8 +16,9 @@
 body {
     background-color: var(--main-color);
     overflow-x: hidden;
-    font-family: 'macondo';
-    color: var(--primary-color);
+    color: var(--text-light);
+     font-family: 'macondo';
+    color: var(--accent1-color);
     text-decoration: none;
 }
 
@@ -349,6 +350,7 @@ dialog::-webkit-scrollbar-thumb {
 footer {
     padding: 1rem;
     background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 
@@ -363,6 +365,7 @@ footer img{
 
 
 #video {
+  color: var(--primary-color);
   font-size: 1.5rem;
   display: inline-block; 
   animation: pulse 1.5s infinite ease-in-out;
