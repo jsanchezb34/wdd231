@@ -52,8 +52,8 @@ form {
 }
 
 .cards {
-  max-width: 300px;
-  background-color: var(--accent2-color);
+  max-width: 400px;
+  background-color: white;
   margin: 1rem;
   border-radius: 20px;
 }
@@ -202,8 +202,9 @@ header ul li{
 
 .cards {
   background-color: white;
-  max-width: 200px;
-  justify-content: space-around;
+  max-width: 500px;
+  justify-content: end;
+
 }
 
 #discover {
